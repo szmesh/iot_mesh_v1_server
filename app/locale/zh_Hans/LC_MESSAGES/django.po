@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 09:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin.py:8
+msgid "companyTitle"
+msgstr "迈旭科技"
+
+#: admin.py:11
+msgid "company"
+msgstr "深圳迈旭科技有限公司"
+
+#: apps.py:7
+msgid "User Manager"
+msgstr "用户管理"
+
+#: models.py:11
+msgid "activeStatus"
+msgstr "有效"
+
+#: models.py:12
+msgid "disableStatus"
+msgstr "无效"
+
+#: models.py:13
+msgid "deleteStatus"
+msgstr "已删除"
+
+#: models.py:22
+msgid "male"
+msgstr "男"
+
+#: models.py:23
+msgid "female"
+msgstr "女"
+
+#: models.py:24
+msgid "secretGender"
+msgstr "保密"
+
+#: models.py:28
+msgid "Bachelor"
+msgstr "学士"
+
+#: models.py:29
+msgid "Bachelor Degree"
+msgstr "学士学位"
+
+#: models.py:30
+msgid "Bachelor Degree of Engineering"
+msgstr "工学士学位"
+
+#: models.py:31
+msgid "Bachelor Degree of Science"
+msgstr "理学士学位"
+
+#: models.py:32
+msgid "Bachelor Degree of Art"
+msgstr "文学士"
+
+#: models.py:33
+msgid "Bachelor of Education"
+msgstr "教育学学士"
+
+#: models.py:34
+msgid "Bachelor of Business Adm"
+msgstr "工商管理学士"
+
+#: models.py:36
+msgid "Master"
+msgstr "研士"
+
+#: models.py:37
+msgid "Master Eegree"
+msgstr "研士学位"
+
+#: models.py:38
+msgid "Master of Science"
+msgstr "自然科学硕士"
+
+#: models.py:39
+msgid "Master of Engineering"
+msgstr "工程硕士"
+
+#: models.py:40
+msgid "Master of Business Administration"
+msgstr "工商管理硕士"
+
+#: models.py:42
+msgid "Doctor"
+msgstr "博士"
+
+#: models.py:43
+msgid "Doctor Degree"
+msgstr "博士学位"
+
+#: models.py:44
+msgid "Doctor of Philosophy"
+msgstr "博士学位"
+
+#: models.py:48
+msgid "alias"
+msgstr "昵称"
+
+#: models.py:49
+msgid "birthday"
+msgstr "生日"
+
+#: models.py:51
+msgid "gender"
+msgstr "性别"
+
+#: models.py:52
+msgid "nation"
+msgstr "民族"
+
+#: models.py:52
+msgid "helpTextNation"
+msgstr "请输入你的民族，如汉族，藏族等"
+
+#: models.py:53
+msgid "degrees"
+msgstr "学位"
+
+#: models.py:53
+msgid "helpTextDegrees"
+msgstr "请选择你的学位"
+
+#: models.py:54
+msgid "idNumber"
+msgstr "唯一身份标识"
+
+#: models.py:54
+msgid "helpTextIdNumber"
+msgstr "请输入你的唯一身份标识号码"
+
+#: models.py:55
+msgid "phoneZone"
+msgstr "国际编码"
+
+#: models.py:56
+msgid "phone"
+msgstr "联系电话"
+
+#: models.py:57
+msgid "mobile"
+msgstr "联系手机"
+
+#: models.py:59
+msgid "country"
+msgstr "国家"
+
+#: models.py:61
+msgid "province"
+msgstr "省"
+
+#: models.py:63
+msgid "city"
+msgstr "市"
+
+#: models.py:65
+msgid "zone"
+msgstr "区"
+
+#: models.py:66
+msgid "address"
+msgstr "详细地址"
+
+#: models.py:68
+msgid "Avatar"
+msgstr "头像"
+
+#: models.py:69
+msgid "partners"
+msgstr "合作商"
+
+#: models.py:71
+msgid "user"
+msgstr "创建用户"
+
+#: models.py:72
+msgid "createTime"
+msgstr "创建时间"
+
+#: models.py:73
+msgid "modifyTime"
+msgstr "更新时间"
+
+#: models.py:76
+msgid "openIdWechat"
+msgstr "微信openID"
+
+#: models.py:77
+msgid "unionIdWechat"
+msgstr "微信UnionID"
+
+#: models.py:78
+msgid "openIdAli"
+msgstr "支付宝openID"
+
+#~ msgid "userProfileId"
+#~ msgstr "用户ID"

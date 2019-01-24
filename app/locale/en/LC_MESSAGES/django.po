@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 09:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin.py:8
+msgid "companyTitle"
+msgstr "SZMesh"
+
+#: admin.py:11
+msgid "company"
+msgstr "Shenzhen Mesh Technology Co., Ltd."
+
+#: apps.py:7
+msgid "User Manager"
+msgstr ""
+
+#: models.py:11
+msgid "activeStatus"
+msgstr "Active"
+
+#: models.py:12
+msgid "disableStatus"
+msgstr "Disable"
+
+#: models.py:13
+msgid "deleteStatus"
+msgstr "Deleted"
+
+#: models.py:22
+msgid "male"
+msgstr "Male"
+
+#: models.py:23
+msgid "female"
+msgstr "Female"
+
+#: models.py:24
+msgid "secretGender"
+msgstr "Secret"
+
+#: models.py:28
+msgid "Bachelor"
+msgstr ""
+
+#: models.py:29
+msgid "Bachelor Degree"
+msgstr ""
+
+#: models.py:30
+msgid "Bachelor Degree of Engineering"
+msgstr ""
+
+#: models.py:31
+msgid "Bachelor Degree of Science"
+msgstr ""
+
+#: models.py:32
+msgid "Bachelor Degree of Art"
+msgstr ""
+
+#: models.py:33
+msgid "Bachelor of Education"
+msgstr ""
+
+#: models.py:34
+msgid "Bachelor of Business Adm"
+msgstr ""
+
+#: models.py:36
+msgid "Master"
+msgstr ""
+
+#: models.py:37
+msgid "Master Eegree"
+msgstr ""
+
+#: models.py:38
+msgid "Master of Science"
+msgstr ""
+
+#: models.py:39
+msgid "Master of Engineering"
+msgstr ""
+
+#: models.py:40
+msgid "Master of Business Administration"
+msgstr ""
+
+#: models.py:42
+msgid "Doctor"
+msgstr ""
+
+#: models.py:43
+msgid "Doctor Degree"
+msgstr ""
+
+#: models.py:44
+msgid "Doctor of Philosophy"
+msgstr ""
+
+#: models.py:48
+msgid "alias"
+msgstr "Alias"
+
+#: models.py:49
+msgid "birthday"
+msgstr "Birthday"
+
+#: models.py:51
+msgid "gender"
+msgstr "Gender"
+
+#: models.py:52
+msgid "nation"
+msgstr "Nation"
+
+#: models.py:52
+msgid "helpTextNation"
+msgstr "Please input your nation, like Han etc"
+
+#: models.py:53
+msgid "degrees"
+msgstr "Degrees"
+
+#: models.py:53
+msgid "helpTextDegrees"
+msgstr "Please input your Degrees"
+
+#: models.py:54
+msgid "idNumber"
+msgstr "ID Number"
+
+#: models.py:54
+msgid "helpTextIdNumber"
+msgstr "Please input your ID Card Number"
+
+#: models.py:55
+msgid "phoneZone"
+msgstr "Phone Zone"
+
+#: models.py:56
+msgid "phone"
+msgstr "Phone"
+
+#: models.py:57
+msgid "mobile"
+msgstr "Mobile"
+
+#: models.py:59
+msgid "country"
+msgstr "Country"
+
+#: models.py:61
+msgid "province"
+msgstr "Province"
+
+#: models.py:63
+msgid "city"
+msgstr "City"
+
+#: models.py:65
+msgid "zone"
+msgstr "Zone"
+
+#: models.py:66
+msgid "address"
+msgstr "Detail Address"
+
+#: models.py:68
+msgid "Avatar"
+msgstr ""
+
+#: models.py:69
+msgid "partners"
+msgstr "Partners"
+
+#: models.py:71
+msgid "user"
+msgstr "Modify User"
+
+#: models.py:72
+msgid "createTime"
+msgstr "Create Time"
+
+#: models.py:73
+msgid "modifyTime"
+msgstr "Modify Time"
+
+#: models.py:76
+msgid "openIdWechat"
+msgstr "Wechat Open ID"
+
+#: models.py:77
+msgid "unionIdWechat"
+msgstr "Wechat Union ID"
+
+#: models.py:78
+msgid "openIdAli"
+msgstr "Ali Open ID"
+
+#~ msgid "userProfileId"
+#~ msgstr "User ID"
