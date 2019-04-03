@@ -109,4 +109,4 @@ venv.bak/
 #iot/
 #manage.py
 #templates/
-migrations/
+#migrations/
