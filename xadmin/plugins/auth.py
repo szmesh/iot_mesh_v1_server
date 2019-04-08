@@ -18,6 +18,8 @@ from xadmin.layout import Fieldset, Main, Side, Row, FormHelper
 from xadmin.sites import site
 from xadmin.util import unquote
 from xadmin.views import BaseAdminPlugin, ModelFormAdminView, ModelAdminView, CommAdminView, csrf_protect_m
+from app.models import UserProfile
+from app.UserProfileAdmin import UserProfileAdmin
 
 User = get_user_model()
 
@@ -120,6 +122,7 @@ class PermissionAdmin(object):
 
 site.register(Group, GroupAdmin)
 site.register(User, UserAdmin)
+site.register(UserProfile, UserProfileAdmin)
 site.register(Permission, PermissionAdmin)
 
 

@@ -1,8 +1,7 @@
-from django.contrib.auth.base_user import AbstractBaseUser
-from django.contrib.auth.models import AbstractUser
+from django.db import models
+from django.conf import settings
 from area.models import CountryArea, ProvinceArea, CityArea, ZoneArea
 from partners.models import Partners
-from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 
@@ -14,7 +13,7 @@ STATUS_RECORD_CHOICE = (
 )
 
 
-class UserProfile(AbstractUser):
+class UserProfile(models.Model):
   """
   用户基本信息
   """
@@ -45,6 +44,7 @@ class UserProfile(AbstractUser):
     )),
   )
 
+  uid = models.AutoField(_('userProfileId'), primary_key=True)
   alias = models.CharField(_('alias'), max_length=32, default='', null=True, blank=True)
   birthday = models.DateField(null=True, blank=True, verbose_name=_('birthday'))
   gender = models.CharField(max_length=4, choices=gender_choices, default="3000",
@@ -68,7 +68,7 @@ class UserProfile(AbstractUser):
                                    blank=True, verbose_name=_('Avatar'))
   partners_user = models.ManyToManyField(Partners, verbose_name=_('partners'), null=True, blank=True)
 
-  user = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, verbose_name=_('user'))
+  user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=False, blank=False, verbose_name=_('user'), editable=False)
   create_time = models.DateTimeField(_('createTime'), auto_now=True, editable=False)
   modify_time = models.DateTimeField(_('modifyTime'), auto_now_add=True, editable=False)
   status = models.IntegerField(choices=STATUS_RECORD_CHOICE, default=1000, editable=False)
@@ -77,6 +77,12 @@ class UserProfile(AbstractUser):
   union_id_wechat = models.CharField(max_length=64, null=True, blank=True, verbose_name=_('unionIdWechat'))
   open_id_ali = models.CharField(max_length=64, null=True, blank=True, verbose_name=_('openIdAli'))
 
+  def __str__(self):
+    return self.name
 
-  class Meta(AbstractUser.Meta):
-    swappable = 'AUTH_USER_MODEL'
+  class Meta:
+    # 默认排序
+    ordering = ['uid']
+
+    verbose_name = _('userProfile')
+    verbose_name_plural = _('userProfile')

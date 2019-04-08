@@ -39,7 +39,7 @@ LOCALEURL_USE_SESSION = True
 NEED_AUTH = False
 
 # 使用自定义的用户信息模型
-AUTH_USER_MODEL = 'app.UserProfile'
+# AUTH_USER_MODEL = 'app.UserProfile'
 
 ALLOWED_HOSTS = []
 
