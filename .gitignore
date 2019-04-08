@@ -110,3 +110,5 @@ venv.bak/
 #manage.py
 #templates/
 #migrations/
+
+users/images/

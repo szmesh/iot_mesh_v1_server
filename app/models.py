@@ -78,7 +78,7 @@ class UserProfile(models.Model):
   open_id_ali = models.CharField(max_length=64, null=True, blank=True, verbose_name=_('openIdAli'))
 
   def __str__(self):
-    return self.name
+    return self.alias
 
   class Meta:
     # 默认排序
