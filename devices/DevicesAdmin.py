@@ -14,7 +14,7 @@ class DevicesAdmin(object):
     list_display_links = ('code',)
 
     # 查询出来的列
-    list_filter = ('uid', 'name', 'code', 'owner_id', 'modify_time')
+    list_filter = ('uid', 'name', 'code', 'modify_time')
 
     # 过滤查询配置
     search_fields = ('name', 'code')
